@@ -3,16 +3,16 @@
 In this post we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN). In an end-to-end framework, the system generates spectrogram from score and text information. Focusing on the difference between the speech synthesisand the singing voice synthesis problem, we develop a model based on GAN for singing voice synthesis. To solve discontinuity problem in conventional GAN, we proposed auto-regressive method for convolutional neural network (CNN). Additionally, We adopted boundary equilibrium GAN objective to generates high quality spectrogram.
 </p>
 
-![Model Architecture Ver 5 small artboard](https://user-images.githubusercontent.com/15067112/67160675-6a8c5c80-f38e-11e9-9927-13e47b0b02e5.jpg)
+![Model Architecture Ver 5 small artboard 2](https://user-images.githubusercontent.com/15067112/67160811-804e5180-f38f-11e9-8304-1c99420d644a.jpg)
 <p align="center">Figure.1 Overview of the proposed singing voice synthesis system.</p>
 
 ### Auto-Regressive Method
 <p align="justify">
 A fundamental issue in the image-based approach when it is applied to audio data is that the model can span only a short audio segment and therefore successive segments generated over time can be discontinuous. To address this problem, we propose an auto-regressive conditional GAN which uses spectrogram in a previous time step as input to produce spectrogram in the current time step. 
-Following figure shows how auto-regressive method helps generating continuous spectrogram. Without auto-regressive method the model generates distinct images of spectrogram but with auto-regressive method spectrogram is generated refered to previous spectrogram. 
+Following figure shows how auto-regressive (AR) method helps generating continuous spectrogram. Without AR method the model generates distinct images of spectrogram but with AR method spectrogram is generated refered to previous spectrogram. 
 </p>
 
-![Spectrograms for upload](https://user-images.githubusercontent.com/15067112/67160594-76c3ea00-f38d-11e9-9973-3de171cb2b50.jpg)
+![Spectrograms for upload 2](https://user-images.githubusercontent.com/15067112/67160822-a4aa2e00-f38f-11e9-969e-6f2fd1b878eb.jpg)
 <p align="center">Figure.2 Spectrogram from ground truth and generated spectrograms from the proposed system.</p>
 
 ### Results
