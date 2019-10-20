@@ -4,4 +4,17 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
 ![Model Architecture Ver 5 2](https://user-images.githubusercontent.com/15067112/67158656-dadab400-f375-11e9-8bfc-5bc57a45c28a.jpg)
 
 ### Results
-<audio controls><source src="assets/audios/ground/alpha1_ground.mp3" type="audio/mpeg"></audio>
+<table>
+    <tr>
+        <th> Song </th>
+        <th> Ground Truth </th>
+        <th> Reconstruction </th>
+        <th> Generated </th>
+    </tr>
+    <tr>
+        <th> 알파벳 송 </th>
+        <th> <audio controls><source src="assets/audios/ground/alpha1_ground.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/alpha1_recon.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/alpha1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+</table>
