@@ -29,19 +29,19 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
     <tr>
         <th> 작은 별 - Twinkle Twinkle Little Star </th>
         <th> <audio controls><source src="assets/audios/ground/star1_ground.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/star1_recon.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/star1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/recon/star1_recon.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/model4/star1_model4.mp3" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> 거미가 줄을 타고 - Itchy Bitsy Spider </th>
         <th> <audio controls><source src="assets/audios/ground/spider1_ground.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/spider1_recon.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/spider1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/recon/spider1_recon.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/model4/spider1_model4.mp3" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> 나비야 - Butterfly </th>
         <th> <audio controls><source src="assets/audios/ground/butterfly1_ground.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/butterfly1_recon.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/butterfly1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/recon/butterfly1_recon.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/model4/butterfly1_model4.mp3" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
