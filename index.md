@@ -1,6 +1,6 @@
 ### Overview
 <p align="justify">
-In this post we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN). In an end-to-end framework, the system generates spectrogram from score and text information. Focusing on the difference between the speech synthesisand the singing voice synthesis problem, we develop a model based on GAN for singing voice synthesis. To solve discontinuity problem in conventional GAN, we proposed auto-regressive method for convolutional neural network (CNN). Additionally, We adopted boundary equilibrium GAN objective to generates high quality spectrogram.
+In this post, we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN). In an end-to-end framework, the system generates spectrogram from score and text information. Focusing on the difference between the speech synthesisand the singing voice synthesis problem, we develop a model based on GAN for singing voice synthesis. To solve discontinuity problem in conventional GAN, we proposed auto-regressive method for convolutional neural network (CNN). Additionally, We adopted boundary equilibrium GAN objective to generates high quality spectrogram.
 </p>
 
 ![Model Architecture Ver 5 small artboard 2](https://user-images.githubusercontent.com/15067112/67160811-804e5180-f38f-11e9-8304-1c99420d644a.jpg)
@@ -12,7 +12,7 @@ A fundamental issue in the image-based approach when it is applied to audio data
 Following figure shows how auto-regressive (AR) method helps generating continuous spectrogram. Without AR method the model generates distinct images of spectrogram but with AR method spectrogram is generated refered to previous spectrogram. 
 </p>
 
-![Spectrograms for upload 2](https://user-images.githubusercontent.com/15067112/67160822-a4aa2e00-f38f-11e9-969e-6f2fd1b878eb.jpg)
+![Spectrograms for upload 3](https://user-images.githubusercontent.com/15067112/67160911-78db7800-f390-11e9-8b8e-92a7d00a13e1.jpg)
 <p align="center">Figure.2 Spectrogram from ground truth and generated spectrograms from the proposed system.</p>
 
 ### Results
