@@ -18,7 +18,6 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
 </style>
 -->
 
-
 <table>
     <tr>
         <th> Song </th>
