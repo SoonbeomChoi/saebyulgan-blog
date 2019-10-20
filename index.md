@@ -4,6 +4,21 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
 ![Model Architecture Ver 5 2](https://user-images.githubusercontent.com/15067112/67158656-dadab400-f375-11e9-8bfc-5bc57a45c28a.jpg)
 
 ### Results
+<style>
+#player{
+    width: 50%;
+}
+</style>
+
+<!--
+<style type="text/css">
+.tg {border-collapse:collapse;border-spacing:0;}
+.tg td{overflow:hidden;}
+.tg th{overflow:hidden;}
+</style>
+-->
+
+
 <table>
     <tr>
         <th> Song </th>
@@ -12,9 +27,21 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
         <th> Generated </th>
     </tr>
     <tr>
-        <th> 알파벳 송 </th>
-        <th> <audio controls><source src="assets/audios/ground/alpha1_ground.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/alpha1_recon.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls><source src="assets/audios/ground/alpha1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
+        <th> 작은 별 - Twinkle Twinkle Little Star </th>
+        <th> <audio controls><source src="assets/audios/ground/star1_ground.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/star1_recon.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/star1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> 거미가 줄을 타고 - Itchy Bitsy Spider </th>
+        <th> <audio controls><source src="assets/audios/ground/spider1_ground.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/spider1_recon.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/spider1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> 나비야 - Butterfly </th>
+        <th> <audio controls><source src="assets/audios/ground/butterfly1_ground.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/butterfly1_recon.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls><source src="assets/audios/ground/butterfly1_mpdel4.mp3" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
