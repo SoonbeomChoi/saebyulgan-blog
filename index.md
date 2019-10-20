@@ -1,11 +1,22 @@
 ### Overview
 <p align="justify">
-We  propose  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN). In an end-to-end framework, the proposed system generates spectrogram from score and text information. Focusing on the difference between the speech synthesisand the singing voice synthesis problem, we develop a model based on GAN for singing voice synthesis. To solve discontinuity problem in conventional GAN, we proposed auto-regressive method for convolutional neural network (CNN). Additionally, We adopted boundary equilibrium GAN objective to generates high quality spectrogram.
+In this post we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN). In an end-to-end framework, the system generates spectrogram from score and text information. Focusing on the difference between the speech synthesisand the singing voice synthesis problem, we develop a model based on GAN for singing voice synthesis. To solve discontinuity problem in conventional GAN, we proposed auto-regressive method for convolutional neural network (CNN). Additionally, We adopted boundary equilibrium GAN objective to generates high quality spectrogram.
 </p>
 
 ![Model Architecture Ver 5 small](https://user-images.githubusercontent.com/15067112/67159763-21cfa600-f384-11e9-905f-e5446dc44cc0.jpg)
 
+### Auto-Regressive Method
+<p align="justify">
+A fundamental issue in the image-based approach when it is applied to audio data is that the model can span only a short audio segment and therefore successive segments generated over time can be discontinuous. To address this problem, we propose an auto-regressive conditional GAN which uses spectrogram in a previous time step as input to produce spectrogram in the current time step. 
+Following figure shows how auto-regressive method helps generating continuous spectrogram. Without auto-regressive method the model generates distinct images of spectrogram but with auto-regressive method spectrogram is generated refered to previous spectrogram. 
+</p>
+
+![Spectrograms for upload](https://user-images.githubusercontent.com/15067112/67160594-76c3ea00-f38d-11e9-9973-3de171cb2b50.jpg)
+
 ### Results
+<p align="justify">
+We compared generated samples from the proposed model with ground truth samples and reconstructed samples. The ground truth samples are from original records and the reconstructed samples are processed same as generated samples to evaluate the sound quality loss from signal processing. 
+</p>
 
 <script>
 function pauseOthers(ele) {
