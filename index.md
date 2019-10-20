@@ -4,14 +4,4 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
 ![Model Architecture Ver 5 2](https://user-images.githubusercontent.com/15067112/67158656-dadab400-f375-11e9-8bfc-5bc57a45c28a.jpg)
 
 ### Results
-| Song | Ground Truth | Reconstruction | Generated |
-|------|--------------|----------------|-----------|
-|      |              |                |           |
-|      |              |                |           |
-|      |              |                |           |
-|      |              |                |           |
-|      |              |                |           |
-|      |              |                |           |
-|      |              |                |           |
-|      |              |                |           |
-|      |              |                |           |
+<audio src="/assets/audios/ground/거미0 part1 - ground.mp3" controls preload></audio>
