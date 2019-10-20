@@ -14,6 +14,7 @@ We  propose  a  Korean  singing  voice  synthesis  system  based  on  auto-regre
 table {
     table-layout:fixed;
     width: 100%;
+    overflow: hidden;
 }
 #player{
     width: 100%;
