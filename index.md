@@ -5,6 +5,10 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
 
 ### Results
 <style>
+table {
+    table-layout:fixed;
+    width: 100%;
+}
 #player{
     width: 100%;
 }
@@ -23,10 +27,10 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
         <th> Song </th>
         <th> Ground Truth </th>
         <th> Reconstruction </th>
-        <th> Generated </th>
+        <th> Generated Sample</th>
     </tr>
     <tr>
-        <th> 작은 별 <br> Twinkle Twinkle Little Star </th>
+        <th> 작은 별 <br> Twinkle Twinkle <br> Little Star </th>
         <th> <audio controls id="player"><source src="assets/audios/ground/star1_ground.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player"><source src="assets/audios/recon/star1_recon.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player"><source src="assets/audios/model4/star1_model4.mp3" type="audio/mpeg"></audio> </th>
