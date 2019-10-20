@@ -5,8 +5,11 @@ We  propose  a  Korean  singing  voice  synthe-sis  system  based  on  auto-regr
 
 ### Results
 <style>
+
+.main-content table {
+    display: inline-table;
+}
 table {
-    display: inline-table
     table-layout:fixed;
     width: 100%;
 }
