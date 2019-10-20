@@ -1,2 +1,5 @@
 theme: jekyll-theme-cayman
 title: Korean Singing Voice Synthesis based on Auto-Regressive Boundary Equilibrium GAN
+
+github:
+  another_url: https://github.com/SoonbeomChoi/Saebyul-GAN
