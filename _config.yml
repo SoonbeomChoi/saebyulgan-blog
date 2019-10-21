@@ -1,5 +1,6 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
-google_analytics:
 theme: jekyll-theme-cayman
+title: Korean Singing Voice Synthesis based on Auto-Regressive Boundary Equilibrium GAN
+description: Music and Audio Computing Lab, GSCT, KAIST
+
+github:
+  repository_url: https://github.com/SoonbeomChoi/Saebyul-GAN
