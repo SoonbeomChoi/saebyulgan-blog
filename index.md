@@ -1,3 +1,4 @@
+
 ### Overview
 <p align="justify">
 In this post, we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN). In an end-to-end framework, the system generates spectrogram from score and text information. Focusing on the difference between the speech synthesisand the singing voice synthesis problem, we develop a model based on GAN for singing voice synthesis. To solve discontinuity problem in conventional GAN, we proposed auto-regressive method for convolutional neural network (CNN). Additionally, We adopted boundary equilibrium GAN objective to generates high quality spectrogram.
