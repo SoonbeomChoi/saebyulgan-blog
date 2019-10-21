@@ -1,8 +1,10 @@
+<p align="justify">
 In this post, we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarial network (GAN).
+</p>
 
 ### Overview
 <p align="justify">
-Singing voice synthesis is a complicated task that involves multi-dimensional controls of a singer model, including phonemic modulation by lyrics, pitch control by music score, and natural elements such as breath sounds and vibrato expressions. Recently, end-to-end learning models based on GAN have drawn much interest to overcome the limitation of concatenative synthesis and statistical parametric models. When GAN is applied to the audio domain, it entails several issues: the choice of audio representation to generate, handling temporal continuity between two adjacent outputs, finding an effective loss metric for the audio representation. We propose a Korean singing voice synthesis system that addresses the issues using an auto-regressive GAN that generates spectrogram with the boundary equilibrium objective.
+Singing voice synthesis is a complicated task that involves multi-dimensional controls of a singer model, including phonemic modulation by lyrics, pitch control by music score, and natural elements such as breath sounds and vibrato expressions. Recently, end-to-end learning models based on GAN have drawn much interest to overcome the limitation of concatenative synthesis and statistical parametric models. When GAN is applied to the audio domain, it entails several issues: the choice of audio representation to generate, handling temporal continuity between two adjacent outputs, finding an effective loss metric for the audio representation. The proposed system addresses the issues using an auto-regressive GAN that generates spectrogram with the boundary equilibrium objective.
 </p>
 
 ![Model Architecture Ver 5 small artboard 2](https://user-images.githubusercontent.com/15067112/67160811-804e5180-f38f-11e9-8304-1c99420d644a.jpg)
