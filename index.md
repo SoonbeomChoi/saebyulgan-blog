@@ -1,16 +1,14 @@
----
-layout: default
----
+In this post, we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN).
 
-## Overview
+### Overview
 <p align="justify">
-In this post, we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarialnetwork (GAN). In an end-to-end framework, the system generates spectrogram from score and text information. Focusing on the difference between the speech synthesisand the singing voice synthesis problem, we develop a model based on GAN for singing voice synthesis. To solve discontinuity problem in conventional GAN, we proposed auto-regressive method for convolutional neural network (CNN). Additionally, We adopted boundary equilibrium GAN objective to generates high quality spectrogram.
+Singing voice synthesis is a complicated task that involves multidimensional controls of a singer model, including phonemic modulation by lyrics, pitch control by music score, and natural elements such as breath sounds and vibrato expressions. Recently, end-to-end learning models based on GAN have drawn much interest to overcome the limitation of concatenative synthesis and statistical parametric models. When GAN is applied to the audio domain, it entails several issues: the choice of audio representation to generate, handling temporal continuity between two adjacent outputs, finding an effective loss metric for the audio representation. We propose a Korean singing voice synthesis system that addresses the issues using an auto-regressive GAN that generates spectrogram with the boundary equilibrium objective.
 </p>
 
 ![Model Architecture Ver 5 small artboard 2](https://user-images.githubusercontent.com/15067112/67160811-804e5180-f38f-11e9-8304-1c99420d644a.jpg)
 <p align="center">Figure.1 Overview of the proposed singing voice synthesis system.</p>
 
-## Auto-Regressive Method
+### Auto-Regressive Method
 <p align="justify">
 A fundamental issue in the image-based approach when it is applied to audio data is that the model can span only a short audio segment and therefore successive segments generated over time can be discontinuous. To address this problem, we propose an auto-regressive conditional GAN which uses spectrogram in a previous time step as input to produce spectrogram in the current time step. 
 Following figure shows how auto-regressive (AR) method helps generating continuous spectrogram. Without AR method the model generates distinct images of spectrogram but with AR method spectrogram is generated refered to previous spectrogram. 
@@ -19,7 +17,7 @@ Following figure shows how auto-regressive (AR) method helps generating continuo
 ![Spectrograms for upload 2](https://user-images.githubusercontent.com/15067112/67160822-a4aa2e00-f38f-11e9-969e-6f2fd1b878eb.jpg)
 <p align="center">Figure.2 Spectrogram from ground truth and generated spectrograms from the proposed system.</p>
 
-## Results
+### Results
 <p align="justify">
 We compared generated samples from the proposed model with ground truth samples and reconstructed samples. The ground truth samples are from original records and the reconstructed samples are processed same as generated samples to evaluate the sound quality loss from signal processing. 
 </p>
