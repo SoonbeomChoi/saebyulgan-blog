@@ -1,5 +1,5 @@
 <p align="justify">
-In this post, we  introduce  a  Korean  singing  voice  synthesis  system  based  on  auto-regressive  generative  adversarial network (GAN).
+In this post, we introduce a <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9053950'>Korean Singing Voice Synthesis based on Auto-regressive Boundary Equilibrium GAN</a>, accepted for ICASSP 2020.
 </p>
 
 ### Overview
